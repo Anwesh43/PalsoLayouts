@@ -45,7 +45,7 @@
 ```
 ###Screenshots
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoCircularView.png "Circular Layout without Color")
-![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/device-2016-11-04-111842.png "Circular Layout with Color")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoCircularWithColor.png "Circular Layout with Color")
 
 ##MasterSquareLayout
 ###Usage
@@ -79,5 +79,5 @@
 <com.anwesome.games.palsoshape.MasterSquareLayout/>
 ```
 ###Screenshots
-![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareLayout.png "Square Layout with Color")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSqaureLayout.png "Square Layout with Color")
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWithColor.png "Square Layout without Color")
