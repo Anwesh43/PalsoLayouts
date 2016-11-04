@@ -61,6 +61,7 @@ public class MasterCircleLayout extends ViewGroup {
             View view = getChildAt(i);
             int w_child = view.getMeasuredWidth(),h_child = view.getMeasuredHeight();
             view.layout(x-w_child/2,y-h_child/2,x+w_child/2,y+h_child/2);
+            view.setRotation(i*DEGREE_ALLOCATED_TO_EACH+90);
         }
     }
 }
