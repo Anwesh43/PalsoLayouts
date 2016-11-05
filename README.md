@@ -81,3 +81,38 @@
 ###Screenshots
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSqaureLayout.png "Square Layout with Color")
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWithColor.png "Square Layout without Color")
+
+##MasterTriangleLayout
+###Usage
+```
+<com.anwesome.games.palsoshape.MasterTriangleLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  >
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+<com.anwesome.games.palsoshape.MasterTriangleLayout/>
+```
+###Screenshots
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleLayout.png "Triangle Layout with Color")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleWithColor.png "Triangle Layout without Color")
