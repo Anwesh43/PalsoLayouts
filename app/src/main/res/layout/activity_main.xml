@@ -10,180 +10,82 @@
 <com.anwesome.games.palsoshape.MasterTriangleLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="#00BCD4"
     >
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ef5350"
+    android:text="A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:background="#ef5350"
         android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        android:text="A"/>
-
 </com.anwesome.games.palsoshape.MasterTriangleLayout>
 </HorizontalScrollView>
 

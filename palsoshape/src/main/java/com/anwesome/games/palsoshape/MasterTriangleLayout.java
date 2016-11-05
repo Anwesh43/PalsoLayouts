@@ -14,7 +14,9 @@ public class MasterTriangleLayout extends ViewGroup{
     private final int  NUMBER_OF_SIDES = 3;
     private int viewsInEachSide = 3;
     private int orientationMatrix[] ={0,1};
-    Point basePoint = new Point(),currentPoint = new Point(),vertexPoint = new Point();
+    Point points[] = new Point[3];
+    int degs[] = {60,-180,-60};
+    Point currentPoint = new Point();
 
     private int currentSide = 0,viewsInCurrentSide = 0,deg = 60;
     public MasterTriangleLayout(Context context, AttributeSet attrs) {
@@ -44,14 +46,11 @@ public class MasterTriangleLayout extends ViewGroup{
         if(w>h) {
             orientationMatrix = new int[]{1,0};
             setMeasuredDimension(Math.max(highestTriangleSize,w),Math.max(h,traingleHeight));
-
         }
         else {
             orientationMatrix = new int[]{0,1};
-
             setMeasuredDimension(Math.max(w,triangleWidth),Math.max(h,highestTriangleSize));
         }
-
     }
     public void onLayout(boolean condition,int a,int b,int w,int h) {
         init();
@@ -74,12 +73,10 @@ public class MasterTriangleLayout extends ViewGroup{
             if(viewsInCurrentSide == viewsInEachSide) {
                 currentSide++;
                 startDist = 0;
-
                 if(currentSide<NUMBER_OF_SIDES) {
                     viewsInCurrentSide = 0;
-                    deg -=60;
-
-                    currentPoint = vertexPoint;
+                    deg = degs[currentSide];
+                    currentPoint = points[currentSide];
                 }
                 else {
                     n++;
@@ -91,21 +88,20 @@ public class MasterTriangleLayout extends ViewGroup{
         }
     }
     private void setPoints(int gap) {
-        basePoint = new Point(3*side/4+gap,side/2+gap);
+        points[0] = new Point(3*side/4+gap,side/2+gap);
         if(orientationMatrix[0] == 0) {
-            basePoint.x = 3*side/4;
+            points[0].x = 3*side/4;
         }
         else {
-            basePoint.y = side/2;
+            points[0].y = side/2;
         }
-        vertexPoint = new Point(basePoint.x+(int)(side*Math.cos(120*Math.PI/180)),basePoint.y+(int)(side*Math.sin(120*Math.PI/180)));
-        currentPoint = basePoint;
+        points[1] = new Point(points[0].x+(int)(side*Math.cos(60*Math.PI/180)),points[0].y+(int)(side*Math.sin(60*Math.PI/180)));
+        points[2] = new Point(points[0].x+(int)(side*Math.cos(120*Math.PI/180)),points[0].y+(int)(side*Math.sin(120*Math.PI/180)));
+        currentPoint = points[0];
     }
     private void init() {
         currentSide = 0;
         viewsInCurrentSide = 0;
         deg = 60;
-
-
     }
 }
