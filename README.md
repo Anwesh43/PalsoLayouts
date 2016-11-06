@@ -117,7 +117,7 @@
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleLayout.png "Triangle Layout with Color")
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleWithColor.png "Triangle Layout without Color")
 
-##MasterTriangleLayout
+##MasterStepsLayout
 ###Usage
 ```
 <com.anwesome.games.palsoshape.MasterStepsLayout
