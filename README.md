@@ -151,3 +151,40 @@
 ###Screenshots
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoStepsLayout.png " Layout with Color")
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoStepsLayoutWithoutColor.png "Steps Layout with color" Color")
+
+##MasterSquareWaveLayout(Use with HorizontalScrollView)
+###Usage
+```
+<HorizontalScrollView>
+<com.anwesome.games.palsoshape.MasterSquareWaveLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  >
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+<com.anwesome.games.palsoshape.MasterSquareWaveLayout/>
+</HorizontalScrollView>
+```
+###Screenshots
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWaveLayout.png " SquareWaveLayout")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWaveLayout2.png "SquareWaveLayout2")
