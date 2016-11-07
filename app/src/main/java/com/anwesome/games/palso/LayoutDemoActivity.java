@@ -1,6 +1,7 @@
 package com.anwesome.games.palso;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -19,10 +20,12 @@ public class LayoutDemoActivity extends AppCompatActivity {
         setContentView(R.layout.layout_demo);
         Bundle bundleFromMain = getIntent().getExtras();
         layoutIndex = bundleFromMain.getInt(AppConstants.LAYOUT_CHOSEN,0);
-        getSupportActionBar().setTitle(AppConstants.LAYOUT_TITLES[layoutIndex]);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Fragment fragment = new LayoutFragment();
-        FragmentUtil.addNewFragment(getSupportFragmentManager(),fragment,R.id.layout_container);
+        if(layoutIndex<AppConstants.LAYOUT_TITLES.length) {
+            getSupportActionBar().setTitle(AppConstants.LAYOUT_TITLES[layoutIndex]);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            Fragment fragment = new LayoutFragment();
+            FragmentUtil.addNewFragment(getSupportFragmentManager(), fragment, R.id.layout_container);
+        }
     }
     public int getLayoutIndex() {
         return layoutIndex;

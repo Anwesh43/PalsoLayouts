@@ -5,6 +5,6 @@ package com.anwesome.games.palso;
  */
 public class AppConstants {
     public static final String LAYOUT_CHOSEN = "layout_chosen";
-    public static final String LAYOUT_TITLES[] = {"MasterSquareLayout","MasterTriangleLayout","MasterStepsLayout","MasterCircleLayout"};
-    public static final int layouts[] = {R.layout.square_layout,R.layout.triangle_layout,R.layout.steps_layout,R.layout.circle_layout};
+    public static final String LAYOUT_TITLES[] = {"MasterSquareLayout","MasterTriangleLayout","MasterStepsLayout","MasterCircleLayout","MasterSquareWaveLayout"};
+    public static final int layouts[] = {R.layout.square_layout,R.layout.triangle_layout,R.layout.steps_layout,R.layout.circle_layout,R.layout.square_wave_layout};
 }

@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         add("master triangle layout");
         add("master steps layout");
         add("master circle layout");
+        add("master square wave layout");
     }};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         layoutList.setAdapter(layoutListAdapter);
         layoutList.setLayoutManager(new LinearLayoutManager(this));
         layoutList.addItemDecoration(new LayoutItemDecorator(30));
-
         layoutList.addOnItemTouchListener(new RecyclerView.OnItemTouchListener() {
             @Override
             public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
