@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         add("master steps layout");
         add("master circle layout");
         add("master square wave layout");
+        add("master circle wave layout");
     }};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
