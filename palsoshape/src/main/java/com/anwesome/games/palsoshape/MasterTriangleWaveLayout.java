@@ -9,13 +9,13 @@ import android.util.AttributeSet;
  */
 public class MasterTriangleWaveLayout extends MasterWaveLayout {
     private Point pivot = new Point();
-    private int degs [] = {-60,60,180};
+    private int degs [] = {-60,60,0};
     private Point pivots[] = new Point[3];
     public MasterTriangleWaveLayout(Context context, AttributeSet attrs) {
         super(context,attrs,3,3);
     }
     public int computeWaveWidth() {
-        return startX+side*(getChildCount()/(viewsInEachSide*maxSide))+2*side;
+        return startX+2*side*(getChildCount()/(viewsInEachSide*maxSide))+2*side;
     }
     private void initPivots(int startX,int startY) {
         Point basePoint = new Point(startX-(int)(side*Math.cos(2*Math.PI/3)),startY-(int)(side*Math.sin(2*Math.PI/3)));
@@ -47,7 +47,7 @@ public class MasterTriangleWaveLayout extends MasterWaveLayout {
     }
     protected void onResetMaxSide() {
         super.onResetMaxSide();
-        initPivots(pivots[pivots.length-1].x,pivots[pivots.length-1].y);
+        initPivots(pivots[pivots.length-1].x+side,startY);
         pivot = pivots[currSide];
     }
 }
