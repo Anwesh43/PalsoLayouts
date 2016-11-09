@@ -35,32 +35,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         layoutList = (RecyclerView) findViewById(R.id.layout_list);
-        LayoutListAdapter layoutListAdapter = new LayoutListAdapter(items);
+        LayoutListAdapter layoutListAdapter = new LayoutListAdapter(items,this);
         layoutList.setAdapter(layoutListAdapter);
         layoutList.setLayoutManager(new LinearLayoutManager(this));
         layoutList.addItemDecoration(new LayoutItemDecorator(30));
-        layoutList.addOnItemTouchListener(new RecyclerView.OnItemTouchListener() {
-            @Override
-            public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
-                return true;
-            }
-
-            @Override
-            public void onTouchEvent(RecyclerView rv, MotionEvent e) {
-                View child = rv.findChildViewUnder(e.getX(),e.getY());
-                int layoutIndex = rv.getChildAdapterPosition(child);
-                Log.d("layoutindex:",""+layoutIndex);
-                if(layoutIndex<AppConstants.layouts.length) {
-                    Intent intent = new Intent(MainActivity.this, LayoutDemoActivity.class);
-                    intent.putExtra(AppConstants.LAYOUT_CHOSEN, layoutIndex);
-                    startActivity(intent);
-                }
-            }
-
-            @Override
-            public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
-
-            }
-        });
+    }
+    public void goToLayoutDemoActivity(int layoutIndex) {
+        Intent intent = new Intent(MainActivity.this, LayoutDemoActivity.class);
+        intent.putExtra(AppConstants.LAYOUT_CHOSEN, layoutIndex);
+        startActivity(intent);
     }
 }

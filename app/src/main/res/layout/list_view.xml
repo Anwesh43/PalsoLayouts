@@ -4,12 +4,25 @@
     android:layout_height="80dp"
     android:elevation="5dp"
     android:background="#FAFAFA">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
     <TextView
         android:padding="25dp"
-        android:textSize="20dp"
+        android:textSize="17dp"
         android:layout_width="wrap_content"
-        android:gravity="center_horizontal"
+
         android:id="@+id/list_text"
         android:text="something"
+        android:layout_weight="0.9"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/next"
+        android:padding="10dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/arrow_v4"/>
+    </LinearLayout>
 </LinearLayout>
