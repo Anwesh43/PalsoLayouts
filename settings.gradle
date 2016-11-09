@@ -1,1 +1,2 @@
 include ':app', ':palsoshape'
+include ':sample', ':library'
