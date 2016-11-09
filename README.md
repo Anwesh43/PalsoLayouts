@@ -2,8 +2,8 @@
 ###Collection of awesome Custom geometric Layouts for android
 
 ##Usage
-dependencies {
-    ###compile 'com.github.anwesh43:"palsolayouts":0.0.1'
+###dependencies {
+    compile 'com.github.anwesh43:"palsolayouts":0.0.1'
 }
 
 ##MasterCircularLayout
