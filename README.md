@@ -188,3 +188,41 @@
 ###Screenshots
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWaveLayout.png " SquareWaveLayout")
 ![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoSquareWaveLayout2.png "SquareWaveLayout2")
+
+##MasterTriangleWaveLayout(Use with HorizontalScrollView)
+###Usage
+```
+<HorizontalScrollView>
+<com.anwesome.games.palsoshape.MasterTriangleWaveLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  >
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="A"/>
+<com.anwesome.games.palsoshape.MasterTriangleWaveLayout/>
+</HorizontalScrollView>
+```
+###Screenshots
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleWaveLayout.png " TriangleWaveLayout")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleWaveLayout1.png "TriangleWaveLayout1")
+![alt text](https://github.com/Anwesh43/PalsoLayouts/blob/master/screenshots/PalsoTriangleWaveLayout2.png "TriangleWaveLayout2")
